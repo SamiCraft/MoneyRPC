@@ -25,7 +25,7 @@ You need to start the game now. We need to do this in order for the mod to creat
 
 Now go one folder back from the `mods`, you will be able to now find the file called `moneyrpc.properties`. Open it with you text editor
 
-You will need to change the `discord.id` property to your personal discord id. You can get that by enabling [developer mode](https://discordia.me/en/developer-mode) or by going to the #bot-hole and typing in !myid and the SamiCraft bot will tell you what is your discord id. When you changed the id to yours save the file and start the game
+You will need to change the `discord.id` property to your personal discord id. You can get that by enabling [developer mode on Discord](https://discordia.me/en/developer-mode) or by going to the #bot-hole and typing in !myid and the SamiCraft bot will tell you what is your discord id. When you changed the id to yours save the file and start the game
 
 ***Congratulations, you have successfully set up the mod!!!***
 
@@ -33,6 +33,6 @@ You will need to change the `discord.id` property to your personal discord id. Y
 
 Before we proceed please make sure that you can actually join the server, aka check if you have verified yourself.
 
-If you are getting `Money: $Unknown` that means that ether your id was not found or that you have not verified or that there is a severe server error. Go and verify again, or at least check if bot can find you in the database with **!whois discord <your-discord-id>**
+If you are getting `Money: $Unknown` that means that ether your id was not found or that you have not verified or that there is a severe server error. Go and verify again, or at least check if bot can find you in the database with **!whois discord your-discord-id**
 
 For more help please pm me on discord: **Pequla#3038**
