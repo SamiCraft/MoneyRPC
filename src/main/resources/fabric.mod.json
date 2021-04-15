@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "money-rpc",
+  "version": "${version}",
+  "name": "MoneyRPC",
+  "description": "Vault balance Discord RPC integration",
+  "authors": [
+    "Pequla"
+  ],
+  "contact": {
+    "website": "https://samifying.com/"
+  },
+  "license": "MIT",
+  "icon": "assets/money-rpc/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.samifying.rpc.client.MoneyRpcClient"
+    ]
+  },
+  "mixins": [
+    "money-rpc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
