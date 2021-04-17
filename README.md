@@ -1,5 +1,7 @@
 # MoneyRPC
 
+![GitHub](https://img.shields.io/github/license/SamiCraft/MoneyRPC) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/SamiCraft/MoneyRPC) ![Downloads](https://img.shields.io/github/downloads/SamiCraft/MoneyRPC/total)
+
 MoneyRPC is a minecraft **fabric mod**. It enables you to display your real time balance on the Samifying's HideySMP
 Minecraft server
 
