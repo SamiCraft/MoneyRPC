@@ -1,6 +1,7 @@
 package com.samifying.rpc.client;
 
 
+import net.arikia.dev.drpc.DiscordRPC;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -19,6 +20,19 @@ public class MoneyRpcClient implements ClientModInitializer {
     public void onInitializeClient() {
         try {
             DiscordPresence presence = new DiscordPresence();
+
+            // Creating a callback thread
+            new Thread(() -> {
+                while (!Thread.currentThread().isInterrupted()) {
+                    DiscordRPC.discordRunCallbacks();
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException ignored) {
+                    }
+                }
+            }, "DiscordCallbacks").start();
+
+            // Displaying presence
             presence.update();
             Runtime.getRuntime().addShutdownHook(new Thread(() -> {
                 try {
@@ -40,6 +54,7 @@ public class MoneyRpcClient implements ClientModInitializer {
                     }, new Date(),
                     5000L
             );
+
         } catch (IOException e) {
             e.printStackTrace();
         }
