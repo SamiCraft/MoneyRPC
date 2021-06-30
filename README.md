@@ -15,7 +15,7 @@ Fabric Mod Loader go to this link here:
 There are a lot of good tutorials online on how to install Fabric so we wont focuse on it in this document. What we will
 do is cover the installation of the MoneyRPC mod
 
-Also you will need to have Fabric API isntalled as well. You can download it from this link:
+Also you will need to have Fabric API mod installed as well. You can download it from this link:
 
 - [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files)
 
