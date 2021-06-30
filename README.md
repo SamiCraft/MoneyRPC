@@ -15,14 +15,18 @@ Fabric Mod Loader go to this link here:
 There are a lot of good tutorials online on how to install Fabric so we wont focuse on it in this document. What we will
 do is cover the installation of the MoneyRPC mod
 
+Also you will need to have Fabric API isntalled as well. You can download it from this link:
+
+- [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api/files)
+
 ### Installation
 
 Installation of this mod is exactly the same as for any other minecraft mod, all we need to do is download it and drop
 it in the corresponding `mods` folder
 
 Navigate to the [download page](https://github.com/SamiCraft/MoneyRPC/releases/latest) and download
-the `money-rpc-1.1.jar`. Now open your `.minecraft` folder (or if you are an advanced user open your custom minecraft
-directory) and navigate to the `mods` folder. Drop the downloaded `moneyrpc-1.1.jar` and start the game.
+the `money-rpc-1.2.jar`. Now open your `.minecraft` folder (or if you are an advanced user open your custom minecraft
+directory) and navigate to the `mods` folder. Drop the downloaded `moneyrpc-1.2.jar` and start the game.
 
 Congratulations, you have **successfully** installed the MoneyRPC Fabric mod
 
