@@ -25,8 +25,8 @@ Installation of this mod is exactly the same as for any other minecraft mod, all
 it in the corresponding `mods` folder
 
 Navigate to the [download page](https://github.com/SamiCraft/MoneyRPC/releases/latest) and download
-the `money-rpc-1.2.jar`. Now open your `.minecraft` folder (or if you are an advanced user open your custom minecraft
-directory) and navigate to the `mods` folder. Drop the downloaded `moneyrpc-1.2.jar` and start the game.
+the `money-rpc-1.3.jar`. Now open your `.minecraft` folder (or if you are an advanced user open your custom minecraft
+directory) and navigate to the `mods` folder. Drop the downloaded `moneyrpc-1.3.jar` and start the game.
 
 Congratulations, you have **successfully** installed the MoneyRPC Fabric mod
 
