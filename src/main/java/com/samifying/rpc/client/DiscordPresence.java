@@ -28,7 +28,7 @@ public class DiscordPresence implements ReadyCallback {
 
     public void update() throws IOException {
         if (id != null) {
-            URL url = new URL("http://api.samifying.com:8010/v1/balance?id=" + id);
+            URL url = new URL("https://api.samifying.com/v1/balance?id=" + id);
             BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
             DiscordRPC.discordUpdatePresence(new DiscordRichPresence.Builder(SERVER_ADDRESS)
                     .setDetails("Money: " + in.readLine())
